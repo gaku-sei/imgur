@@ -1,0 +1,25 @@
+{
+  "name": "imgur",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "repository": "https://github.com/gaku-sei/imgur",
+  "description": "Library wrapping the Imgur API",
+  "scripts": {
+    "install": "./node_modules/tsd/build/cli.js reinstall && ./node_modules/tsd/build/cli.js bundle",
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "gulp": "^3.9.0",
+    "gulp-typescript": "^2.8.3",
+    "mocha": "^2.3.3",
+    "tsd": "^0.6.4",
+    "typescript": "Microsoft/TypeScript",
+    "yargs": "^3.26.0"
+  },
+  "dependencies": {}
+}
